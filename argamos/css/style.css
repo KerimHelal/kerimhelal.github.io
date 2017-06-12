@@ -1,0 +1,204 @@
+iv { border:solid 1px;}
+@font-face {
+	font-family: 'NewsGothicStdBold';
+	src: url('../fonts/NewsGothicStdBold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/NewsGothicStdBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */   url('../fonts/NewsGothicStdBold.woff') format('woff'), /* Pretty Modern Browsers */  url('../fonts/NewsGothicStdBold.ttf') format('truetype'), /* Safari, Android, iOS */  url('../fonts/NewsGothicStdBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+body {
+	font-family: 'NewsGothicStdBold';
+ 	background:#1c111f url(../images/sitebg.png) no-repeat center top;
+ 	height:1900px;
+ }
+.maincontainer { width:1060px; min-height:12px; margin:0 auto;}
+.mainnavigation_cont { width:577px; margin:0 auto; height:60px; }
+.mainnavigation_cont .mainnavigation li { margin:0px 11px; padding:22px 5px; display:inline-block; }
+.mainnavigation_cont .mainnavigation li:hover, .mainnavigation_cont .mainnavigation li.active{ background:url(../images/activemenu.png) no-repeat !important; }
+.mainnavigation_cont .mainnavigation li a { text-transform:uppercase; font-size: 14px; float: left;text-decoration:none; font-family: 'NewsGothicStdBold'; background: -webkit-linear-gradient(top, #f29150, #ffffa8);
+	background: linear-gradient(top, #f29150, #ffffa8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;}
+	.mainnavigation_cont .mainnavigation li a:hover { opacity:0.5;} 
+	
+ 
+ .clear { clear:both;}
+ .innercontainer_top { width:1060px; /*margin-top:130px; */ margin-top:273px; text-align:center;}
+ .downloadgame {     margin-top: 42px; height: 108px;}
+ .downloadgame img:hover { opacity:0.5;}
+.loginsection input[type="password"], .loginsection input[type="text"]{ background:none; height:34px; width:160px; border:none; outline:none; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-weight: 400; font-size:12px; text-transform:capitalize; text-align:center;}
+.loginsection input::-webkit-input-placeholder {
+color: #ffffff !important;
+}
+ 
+.loginsection input:-moz-placeholder { /* Firefox 18- */
+color: #ffffff !important;  
+}
+ 
+.loginsection input::-moz-placeholder {  /* Firefox 19+ */
+color: #ffffff !important;  
+}
+ 
+.loginsection input:-ms-input-placeholder {  
+color: #ffffff !important;  
+}
+.remember { font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#b2ccec; line-height:18px; text-decoration:none;}
+.remember:hover { text-decoration:underline;}
+.loginbtn { border:none; background:none; cursor:pointer; width:180px; border:none; outline:none; color:#ffffff; font-family:'NewsGothicStdBold'; font-size:13px; text-transform:uppercase; text-align:center;      background:url(../images/login_btn.png) no-repeat; height:82px; text-indent: -9999px; position:absolute;     margin-left: -93px;}
+.loginbtn:hover { background:url(../images/login_btn_glow.png) no-repeat;  }
+
+.content {  min-height:25px; margin-top:111px;}
+.heading_section { text-align:center; clear:both;background: url(../images/headingNewsandupdate.png) no-repeat;	width:158px; height:23px;display:block; margin:15px auto; }
+.content_leftside { width:160px;float:left; margin-left:27px; padding: 5px;
+}
+.content_rightside { width: 158px;
+    float: left;
+     margin-left: 67px;}
+.contentCoverStarts { margin-top: 36px;overflow: hidden;}
+.content_leftside h3.heading, .content_rightside h3.heading{ font-size:13px; 
+ background: -webkit-linear-gradient(top, #8bddff, #ffffff);
+	background: linear-gradient(top, #8bddff, #ffffff);
+	color:#8bddff;
+	-webkit-background-clip: text; text-align:center; text-transform:uppercase;  
+	-webkit-text-fill-color: transparent;}
+	.content_center {  width: 550px;
+    float: left;
+    margin-left: 55px;}
+	.innercontent { font-family:'NewsGothicStdBold'; min-height:25px; padding:10px 23px;}
+	.newserverupdate_cover {     margin-top: 5px;}
+	.newserverupdate_heading h3{     padding-right: 15px; color:#1989b6; text-transform:uppercase; font-size:13px; font-weight:normal;float:left; }
+	.newserverupdate_heading { border-bottom:solid 1px #29273d; padding-bottom:10px; }
+	.newserverupdate_heading_divider { height:16px;float: left;
+    border: solid 1px #1989b6;}
+	.newserverupdate_heading_date { color:#32677c; font-size:13px; text-transform:uppercase; margin-left:8px; }
+	.newserverupdate_para { font-size:12px; line-height:16px;} 
+	.newserverupdate_para p{ font-weight:normal; font-family:Arial, Helvetica, sans-serif; color:#45678a;}
+	.newserverupdate_postedby { font-size:13px; font-family:Arial, Helvetica, sans-serif; font-weight:normal;    
+    margin-top: 41px; overflow:hidden;}
+	.fontbold { font-weight:bold;}
+	.span1 { color:#1989b6; text-transform:uppercase;} 
+	.span2 {color:#426385;}
+	.postedby_left {     border-bottom: solid 1px #29273d;
+    width: 203px; float:left;  padding-bottom:2px;}.postedby_right { float:right; border-bottom: solid 1px #29273d; width: 192px; text-align:right;  padding-bottom:2px;}
+	.newserverupdate_postedby a{ color:#1989b6;}
+		.newserverupdate_postedby a:hover{ text-decoration:none ;}
+		.postedby_more {position: relative;
+    top: -24px;
+    height: 49px;
+    float: left;
+     width: 108px; }
+	 .footersection {  margin-top:100px;}
+	 .footersectio_showmorebtn { text-align:center; margin:5px; opacity:0.5; width: 640px; margin:0 auto;}
+	 .footersectio_showmorebtn:hover { opacity:0.1;}
+	 .footermenu { width: 550px;    margin: 0 auto; margin-top:144px;}
+	 .footermenu ul li{ display:inline; margin: 0px 14px;}
+	 .footermenu ul li a{ font-family:'NewsGothicStdBold'; text-shadow: 1px 1px 1px #000; color:#5a66aa; font-size:14px; text-decoration:none; text-transform:uppercase;}
+	 .footermenu ul li a:hover{ color:#1989b6;}
+	 .playerslists{ font-family:'NewsGothicStdBold'; margin-top:62px; font-size:12px;}
+	 .serverstatus { font-family:'NewsGothicStdBold'; margin-top:52px; font-size:12px;}
+	 .playerslists ul li{ margin:8px 0px;   padding: 2px 10px; border-bottom:solid 1px transparent}
+	 .playerslists ul li:hover{ background:#27304f;  }
+	 .playerslists .number{ float:left; margin-right: 15px; color:#4b5e78; }
+	 .playerslists .playername{ color:#1a95c6; }
+	 .playerslists .score{ float:right; color:#4b5e78; }
+	 .playerslists a{ text-decoration:none;}
+	 .part2 {     margin-top: 111px;}
+	 
+ 	 .onlinepersons { margin-top:5px;}
+	 .playersonlinheading { color:#4a5b74; font-size:16px; text-align:center; display:block; line-height:18px;}
+	 .playersonlincount { color:#1989b6; display:block; text-align:center; line-height:18px;}
+	 .playersonlinhours { color:#455670; font-size:10px; font-weight:normal; font-family:Arial, Helvetica, sans-serif; text-align:center; display:block; line-height:18px;}
+	 .channelname { color:#1989b6; display:block; text-decoration:none; font-size:15px;}
+	 .onlinepersons a{ text-decoration:none;     display: block;}
+	 .status { font-size:12px; color:#45688d; font-family:Arial, Helvetica, sans-serif;}
+	 .onlinecolor{ color:#58910a;}.offlinecolor { color:#c40404;}
+	 .pull-right { float:right;}
+	 .onlinimage { width:35px; margin-right:15px;} 
+	.playercountonline { display:block; font-size:10px; color:#334f70; font-family:Arial, Helvetica, sans-serif;} 
+	.onlinepersons li { border-bottom:solid 1px #2e263d; padding-bottom:2px; overflow:hidden;}
+	.socialiconscover { margin-top:98px; min-height:25px;     padding: 13px;}
+	.socialicons li{display:inline; margin: 0px 4px; }
+	.socialicons { margin-top: 54px;}
+	.socialicons li:hover{ opacity:0.5;}
+ 
+ .voteforlogin {  
+    width: 211px;
+    height: 74px;
+    float: right;
+   position: relative;
+   /* left: 1033px;
+    margin: 0 auto;*/
+    left: 90px;
+    bottom: 115px;}
+	.voteforlogin:hover { opacity:0.5;  }
+	
+	.mainnavigation a {
+    display: inline-block;
+    height: 68px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+}
+	.menu_home {
+    width: 86px;
+	height:68px;
+    background: url(../images/homemenu.png) no-repeat;
+}
+
+.menu_home:hover, .menu_home.active {
+	background: url(../images/homemenu_active.png) no-repeat;
+}
+
+.menu_register {
+    width: 86px;
+	height:68px;
+    background: url(../images/registermenu.png) no-repeat;
+}
+
+.menu_register:hover {
+	background: url(../images/registermenu_active.png) no-repeat;
+}
+
+.menu_download {
+    width: 86px;
+	height:68px;
+    background: url(../images/downloamenu.png) no-repeat;
+}
+
+.menu_download:hover {
+	background: url(../images/downloamenu_active.png) no-repeat;
+}
+
+.menu_ranking {
+    width: 86px;
+	height:68px;
+    background: url(../images/rankingmenu.png) no-repeat;
+}
+
+.menu_ranking:hover {
+	background: url(../images/rankingmenu_active.png) no-repeat;
+}
+
+.menu_forum {
+    width: 86px;
+	height:68px;
+    background: url(../images/forummenu.png) no-repeat;
+}
+
+.menu_forum:hover {
+	background: url(../images/forummenu_active.png) no-repeat;
+}
+
+.menu_support {
+    width: 86px;
+	height:68px;
+    background: url(../images/supportmenu.png) no-repeat;
+}
+
+.menu_support:hover {
+	background: url(../images/supportmenu_active.png) no-repeat;
+}
+
+.bordernone { border:none !important;}
+
+.designed{width: 150px; position:relative; top: -15px; font-family:'NewsGothicStdBold';
+    float: right;}
+.designed p{ margin:0px; padding:0px; text-transform:uppercase; font-size:13px; font-family:'NewsGothicStdBold'; color:#625c87;} 
+.designed span { color:#b3abe3;}

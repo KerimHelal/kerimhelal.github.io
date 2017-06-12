@@ -1,0 +1,609 @@
+{
+  "0.85-86-87-88-89": {
+    "General": [
+      "Fixed some minor problems with encoder & compatibility issues"
+	],
+    "Rengar": [
+	  "Fixed minor bugs"
+	]	
+  },
+  "0.84": {
+    "General": [
+      "Added Titanic Hydra + reset AA after proc it on Rollin'",
+	  "Fixed a bug casting heal at base",
+	  "Added HPrediction and DPrediction support!",
+	  "Updated guide, affecting target selector & predictions part: http://forum.botoflegends.com/topic/76868-"
+	],
+    "Lee Sin": [
+	  "Reworked INSEC, now works both ways properly: selecting two points or only target (using insec to mouse)",
+	  "Minor fixes"
+	],
+    "Rengar": [
+	  "Added to Jungle Series! (Beta)"
+	]	
+  },
+  "0.83": {
+    "General": [
+      "Cleaned some code",
+	  "Changed target selector for be more friendly: Check the FH Quick Guide for understand it!"
+	],
+    "Lee Sin": [
+	  "Improved INSEC a lot! Added also a new option to insec to Mouse",
+	  "Added new passive management system!",
+	  "Added Q-Smite option for cast Q if 1 minion is bocking the path"
+	],
+    "Ryze": [
+      "Automatic Integration with orbwalkers! No longer need disable rollin' & unbind sac"
+    ]	
+  },
+  "0.82": {
+    "General": [
+      "Replaced old inbuilt VPrediction version with the last version",
+	  "Preset for support other predictions [other predictions are not enabled yet]",
+	  "Reseted all FH Trials",
+	  "All updated to patch 5.16 (bol might have still minor issues)",
+	  "Added PagSeguro as new payment option"
+	],
+    "Lee Sin": [
+	  "Improved the RQQ combo",
+	  "Now lane clear will focus crab minion instead of dragon (if you select it, clicking it)",
+	  "Minor fixes"
+	],
+    "Fiora": [
+      "Fixed minor bugs"
+    ],
+    "Azir": [
+      "Fixed for new patch and riot changes"
+    ],
+    "Akali": [
+      "Fixed for new patch"
+    ]	
+  },
+  "0.81": {
+    "General": [
+      "Cleaned all old laggy fps draw functions for predicted damage, now have perfect performance"
+	],
+    "Lee Sin": [
+	  "Improved jungle steal function, now works even if we dont have smite (nice if enemy have smite cooldown too)",
+	  "Fixed a small bug with tiamat/hydra",
+	  "Improved & Fixed menu: More clarity on the on/off options",
+	  "Fixed usage of R as spell interruptor",
+	  "Fixed a bug with wards on the ward jump function",
+	  "Fixed some insec bugs (remember you need click target and then an ally, minion or tower for insec direction)"
+    ],
+    "Fiora": [
+      "Fixed a bug on menu"
+    ],
+    "Azir": [
+      "The warning message now will auto close after 60 seconds"
+    ]	
+  },
+  "0.80": {
+    "General": [
+      "RELEASED LEE SIN ON FH JUNGLE SERIES !"
+	],
+    "Ryze": [
+	  "Fixed a small bug on autokill which activates R by error"
+    ],	
+    "KhaZix": [
+      "Fixed a small bug with double jump + smite"
+    ],
+    "Katarina": [
+	  "Stop breaking ultimate with the inbuilt mini Spells dodge"
+    ]	
+  },
+  "0.79": {
+    "General": [
+      "Fixed a bug with SAC - reset spells (Fiora E, Nidalee Q, Talon Q, etc)"
+	],
+    "Fiora": [
+	  "Fixed the auto hydra activation even with no enemies near",
+      "Some minor bug fixes"
+    ],
+    "KhaZix": [
+      "Fixed double jump on same 'dead' target",
+	  "Added a new draw option for show invisible time"
+    ]	
+  },
+  "0.78": {
+    "Fiora": [
+      "Fixed the random spam bug !"
+    ]	
+  },
+  "0.77": {
+    "General": [
+      "Added SAC-FH exclusive API integration. If you have a chat spam with SAC, get latest SAC version!"
+	],
+    "Fiora": [
+      "Some bug fixes"
+    ],
+    "Nidalee": [
+      "Fixed a small bug disabling swap to cougar form if Q is on cooldown and enemy in W range"
+    ],
+    "Talon": [
+      "Added option to disable W in combo"
+    ]	
+  },
+  "0.76": {
+    "General": [
+      "Some changes on orbwalk, now the extra delay on AA works properly",
+	  "Fixed auto potions, now prioritzes properly them",
+	  "Some minor global bug fixes"
+	],
+    "Fiora": [
+      "Improved W parry function with Evadeee integration",
+      "Fixed the spam chat vs Pantheon!",
+	  "New option for use Q as gap closer even if will not hit a vital mark",
+	  "New option for save Q Evadeee when Riposte cd, against CC champs (morgana, lux ...)",
+	  "Improved her orbwalker preventing stuttering using Rollin'"
+    ],
+    "Irelia": [
+      "Added an option for specific when cast R using lane clear (minimum minions around)"
+    ],
+    "KhaZix": [
+      "Fixed a weird random nil spam chat bug with double jump"
+    ],
+    "Akali": [
+      "Fixed a bug with akali R on smart mode"
+    ]	
+  },
+  "0.75": {
+    "General": [
+      "Added on global FH Settings: Full support for Smite! Now script will use Chilling Smite & Challenging Smite",
+	  "Fixed an small bug with auto smite jungle buff monsters",
+	  "Some minor global bug fixes"
+	],
+    "Fiora": [
+      "Improved W parry function",
+      "Fixed a bug on the forced W key",
+	  "New option for parry AA damage if it does more than a configurable % damage (auto adjusted for critical AA's)"
+    ],
+    "Nidalee": [
+      "Added an option for disable auto R swap in lane clear"
+    ]
+  },
+  "0.74": {
+    "General": [
+      "Added on global FH Settings an option for use inbuilt orbwalker with others like SAC (so you can use SAC for farm and inbuilt one for combo),",
+	  "if you enable the inbuilt orbwalker with others, remember UNBIND combo mode on the external one (SAC, MMA, SXO)",
+	  "Minor bug fixes"
+	],
+    "Fiora": [
+      "Added an option to force use W, so in combo if you feel you want use it for damage/slow, you can press it instead of be saved for parry CC",
+      "Fixed flee mode"
+    ],
+    "KhaZix": [
+      "Improved some damage calculations"
+    ],
+    "Nidalee": [
+      "Fixed the Toggle Q in harass"
+    ]
+  },
+  "0.73": {
+    "Azir": [
+      "Fixed a small bug"
+    ]
+  },  
+  "0.72": {
+    "General": [
+      "Fixed a bug with a global draw"
+    ],
+    "Fiora": [
+      "Fixed the bug that makes you move across the map, one 'getdistance' was wrong",
+      "Improved some spells to parry, like riven third Q",
+	  "Improved the obrwalk position, to no 'stick inside' enemy",
+	  "Minor bugfixes"
+    ],
+    "KhaZix": [
+      "Fixed ALL reported bugs",
+	  "Added all suggested new options (except some draws and use smite on enemy, soon)"
+    ],
+    "Nidalee": [
+      "Fixed ALL reported bugs",
+	  "Added all suggested new options (except some draws and jungle snipe, soon)"
+    ],	
+    "Ryze": [
+      "Fixed a typo on the harass mode"
+    ]
+  },
+  "0.71": {
+    "General": [
+      "Fixed IsKeyDown random problem that some users had",
+      "Improved inbuilt move function",
+      "Improved Stream mode for use it on all scripts, so setting true on FHL is enough",
+      "Improved target selector, now if you have the option 'focus selected target' enable, you will not switch to other target",
+      "Improved detection of recall",
+      "Improved detection of yasuo wall for avoid cast skillshots at it",
+      "Cleaned some functions & code"
+    ],
+    "Fiora": [
+      "Rework is here! All changed according to her new play stile & spells (Beta)"
+    ],
+    "Ryze": [
+      "Improved his harass mode",
+      "Added a new option for auto cast Q vs enemy gap closers, if you will get a shield with it"
+    ],
+    "Fizz": [
+      "Changed a bit prediction for his R (still WIP)"
+    ],
+    "Azir": [
+      "Increased default timer text size on soldiers",
+      "Reactivated trap enemy into walls (was disabled due to bol old bugs)",
+      "Added option to auto push enemy into our tower range",
+      "Fixed azir long flee mode bug"
+    ],
+    "NEW FUN HOUSE": [
+      "We want to give a BIG gift to our clients, so we are rearranging our scripts.",
+      "Instead of buy them as standalone, now will be binded in packages!",
+      "",
+      "New packages are:",
+      "FH Jungle: Evelynn Trundle KhaZix Nidalee (+2 more soon) --> ALL this scripts for just $15",
+      "FH Mainline: Azir Fiora Ryze Akali Urgot Irelia Fizz --> ALL this scripts for just $15",
+      "If you already own 1 script , you will be inside the whole bundle.",
+      "If you own one or more scripts from each bundle, you will have access to both.",
+      "",
+      "Added nidalee for free for all users on the Jungle package",
+      "Added khazix for free for all users on the Jungle package",
+      "Added a new menu for see easier who is our target",
+      "Added a mini skillshot drawer (if you can, use Evadeee instead!)",
+      "Added a new jungle menu for auto smite (WIP)",
+      "Added a new exclusive integration between FH and Evadeee with: Irelia, Fiora, Akali, Fizz & Katarina"
+    ]
+  },
+  "0.70": {
+    "Azir": [
+      "Fixed a random case where script might not cast E, breaking insec&quick dash"
+    ]
+  },
+  "0.69": {
+    "General": [
+      "Added BilgeWater special minions"
+    ],
+    "Fizz": [
+      "Q spell now take into account enemy hitbox (somehow was removed, now is back)",
+      "Added forced long range R (own menu|experimental|disabled by default)"
+    ]
+  },
+  "0.68": {
+    "General": [
+      "We reset all the trials on our champions scripts 48h ago (in case you didn't see it)",
+      "Minor bug with auth should be fixed now if you're on trial mode",
+      "Minor bug on target selector"
+    ],
+    "Azir": [
+      "NEW: Insec & Quick Dash !",
+      "We reworked from 0 our code, so it will perform much better,",
+      "might still need some minor tweak, but in overall insec/dash will be much more smooth!"
+    ]
+  },
+  "0.67": {
+    "General": [
+      "Minor updates on all our scripts - updated for Patch 5.14",
+      "If scripts don't work on your region, please wait for a BoL update"
+    ],
+    "Akali": [
+      "Updated her R stacks packet"
+    ],
+    "Evelynn": [
+      "Adjusted new Q damage from this patch"
+    ],
+    "Ryze": [
+      "Adjusted new Q&E damage from this patch + new passive duration"
+    ]
+  },
+  "0.66": {
+    "Azir": [
+      "Reverted last patch changes. As seems new version give more problems than solutions.",
+      "However we are still looking hard at this for get the perfect solution for everyone!"
+    ],
+    "Ryze": [
+      "Added an experimental mode for use SAC for farming but inbuild orbwalker for Combo.",
+      "Reason is that sac doesnt detect ryze comboing and make it stutters. No enable if you're not sure.",
+      "If you enable it, remember unbind combo SAC mode from -spacebar-"
+    ]
+  },
+  "0.65": {
+    "General": [
+      "Minor updates on all our others scripts"
+    ],
+    "Azir": [
+      "Hard code & checks on Insec, as is high related with the ping. Should work good now."
+    ],
+    "Fizz": [
+      "Tweaked E & R, should be a bit more accurate now"
+    ]
+  },
+  "0.64": {
+    "General": [
+      "Minor updates on all our scripts - working with Patch 5.13"
+    ],
+    "Azir": [
+      "Added a timer on soldiers, for know when they will expire",
+      "Minor bugfix on insec",
+      "Added option to use toggle mode (if you enable it, you need reload with F9x2)",
+      "Added azir slider for those with unique ping, can adjust latency for perfect EQ & Insec timing"
+    ],
+    "Akali": [
+      "Updated R stacks packet"
+    ]
+  },
+  "0.63": {
+    "General": [
+      "Support Yasuo wall! So if an enemy is behind a yasuo wall, we will not waste our spells!! (wip)"
+    ],
+    "Azir": [
+      "Added a new initial message that explains how to avoid having troubles (you need unique keys on some functions)"
+    ],
+    "Akali": [
+      "Added a new slider with a minimum distance for R minion jump (config resetted)",
+      "Added a new option for force R if we are under 50% health (on smart mode)"
+    ],
+    "Ryze": [
+      "Improved AA stuck on combo"
+    ],
+    "Talon": [
+      "Forced Q if you use SAC (still not as good as builtin Rollin' resets)"
+    ]
+  },
+  "0.62": {
+    "General": [
+      "Added full support to all orbwalkers: SAC, SXO & MMA (you need configure keybinders on our menu)",
+      "Fixed auto heal being casted on dead allies",
+      "Minor general improvements"
+    ],
+    "Azir": [
+      "High improvements on INSEC",
+      "Added new mana slider, for avoid over cast W with low mana (saving mana for Q)"
+    ],
+    "Akali": [
+      "Updated packets with R stacks for patch 5.12",
+      "Tweaked last hit & lane clear"
+    ],
+    "Irelia": [
+      "Fixed irelia E as spell interruptor"
+    ],
+    "Fiora": [
+      "Added a toggle option for quick enable/disable auto W parry"
+    ],
+    "Fizz": [
+      "Improved inbuild E dodge"
+    ],
+    "Ryze": [
+      "Improved lane clear, last hit & AA stuck in combo",
+      "Adapated Q & W damage and passive to current patch 5.12",
+      "Improved ryze stacks draws: now red=bad green=good white=pentakill time"
+    ]
+  },
+  "0.61": {
+    "General": [
+      "Auto level activated, bol is now updated so you can enable again that function",
+      "Fixed an small bug that might freeze game on old computers",
+      "Minor general improvements"
+    ],
+    "Irelia": [
+      "Fixed a problem with R on lane clear"
+    ],
+    "Ryze": [
+      "AA animation break on combo should be fixed now"
+    ],
+    "Maokai": [
+      "Added an option to disable/enable W in combo"
+    ]
+  },
+  "0.60": {
+    "General": [
+      "Disabled auto level globally as some people forgot to do it manually"
+    ],
+    "Talon": [
+      "Fixed a bug casting W spell"
+    ]
+  },
+  "0.59": {
+    "General": [
+      "Fixed a 'char const*' bug if you had other scripts loaded"
+    ]
+  },
+  "0.58": {
+    "General": [
+      "Added a new free champion, Talon, topic will be created soon",
+      "All our champions have been tested&fixed and are working with Patch 5.11",
+      "As BoL is still not fully updated, you guys need disable auto level function or will bugsplat"
+    ],
+    "Azir": [
+      "Closest target fixes"
+    ],
+    "Akali": [
+      "R stacks packet updated to patch 5.11"
+    ],
+    "Katarina": [
+      "Adapted to patch 5.11 E changes"
+    ]
+  },
+  "0.57": {
+    "General": [
+      "Fixed a bug on target selector, now will work much better"
+    ],
+    "Irelia": [
+      "Updated E animation cancel"
+    ]
+  },
+  "0.56": {
+    "General": [
+      "FREE TRIAL 24h ENABLED ON ALL FH SCRIPTS. FINALLY!",
+      "Fixed immunetable spam bug (if you get it again, then is cause by other script)"
+    ],
+    "Azir": [
+      "INSEC improved!",
+      "Added auto barrier",
+      "New (beta) option for reflect Sion R",
+      "New option for cast R - panic mode"
+    ],
+    "Ryze": [
+      "Q now ignores collision if we are with 5 stacks (resetting rest of our spells -> PentaKill !)"
+    ],
+    "Urgot": [
+      "Small improvement on Q lock range"
+    ],
+    "Katarina": [
+      "Beta (report any bug): Reworked combo + ks mode, now combo order should be correct",
+      "now humanizer should work (still fast, but as human-like with smart cast)"
+    ],
+    "Fizz": [
+      "Jungle steal spam fixed",
+      "Fizz prevent Q dive under tower on low levels",
+      "NOTE: with lasts changes, If you have a fizz spam chat, please get a clean bol studio folder!"
+    ]
+  },
+  "0.55": {
+    "General": [
+      "Fixed a bug with latest bol update from yesterday, that might break the script"
+    ],
+    "Azir": [
+      "Dash soldier choise fixed"
+    ]
+  },
+  "0.54": {
+    "Azir": [
+      "Now uses previous soldiers for dashes/insec instead of creating new W",
+      "Fixed Q max range in prediction",
+      "Minor fixes",
+      "INSEC: IMPROVED! Now script can drift like faker!",
+      "Allows curved dashes/insec with soldiers already on the field. Currently limited to 90 degrees curves maximum"
+    ]
+  },
+  "0.53": {
+    "General": [
+      "Fixed a minor bug on target selector",
+      "Increased range of BOTRK and BWG from 450 to 550 - patch 5.10"
+    ],
+    "Akali": [
+      "Updated R stacks packet - patch 5.10"
+    ],
+    "Ryze": [
+      "Changed Q damage - patch 5.10 buff",
+      "Updated passive stacks - patch 5.10 buff"
+    ]
+  },
+  "0.52": {
+    "Azir": [
+      "Improved Insec",
+      "The random message -property X is read only- should be fixed now"
+    ],
+    "Urgot": [
+      "Added a new option on Q lane clear&harass: now you can use it always or only if AA is not ready"
+    ]
+  },
+  "0.51": {
+    "General": [
+      "Fixed a shared bug in OnDraw callback"
+    ],
+    "Akali": [
+      "Improved Smart Combo checks"
+    ],
+    "Irelia": [
+      "Fixed a bug with patch 5.9"
+    ],
+    "Urgot": [
+      "Added a new option on Q last hit: now you can use it always or only if AA is not ready"
+    ],
+    "Katarina": [
+      "Tweaked E humanizer"
+    ]
+  },
+  "0.50": {
+    "Akali": [
+      "Added an option to cast or not R (in smart way combo) under enemy tower, configurable",
+      "Improved logic for cast R using the Smart Way Combo"
+    ]
+  },
+  "0.49": {
+    "General": [
+      "All of our champions are now fully compatible with patch 5.9",
+      "VPrediction is now built into FH Loader"
+    ],
+    "Akali": [
+      "Adapted to changes in patch 5.9",
+      "Fixed R stacks packet"
+    ],
+    "Ryze": [
+      "Tweaked Q range and prediction"
+    ]
+  },
+  "0.48": {
+    "Azir": [
+      "Fixed a critical bug where soldiers would often not attack enemies in range",
+      "Fixed a bug drawing soldier ranges"
+    ]
+  },
+  "0.47": {
+    "General": [
+      "Fixed a small random bug with orbwalking on all of our scripts",
+      "Cleaned some shared functions"
+    ],
+    "Azir": [
+      "Fixed an error with a random nil value spam on chat doing Insec",
+      "Fixed a bug casting W outside range",
+      "Fixed a bug with the auto combo system casting ult randomly"
+    ]
+  },
+  "0.46": {
+    "comment": "Hi guys! This time we bring you a new MAJOR update with tons of improvements for all of our champs! With this v0.46, we fixed all critical bugs and also added most of your suggestions! (Sadly, some of them will need wait for BoL 2 as BoL 1 performance is limited)",
+    "General": [
+      "Fixed a bug with enemy turrets, that indirectly fixes all bugs related to this (fiora W under enemy tower, irelia Q under enemy tower, etc)",
+      "Fixed a bug with minions that affected minions table if you did a F9x2",
+      "ADDED STREAM MODE! Now you can disable all draws and messages in game from our script! Stream on youtube, ustream, etc as a legit player :D"
+    ],
+    "Akali": [
+      "Fixed flee mode",
+      "Moved shroud timer from drawing above your champion to drawing on the shroud",
+      "Improved logic on E"
+    ],
+    "Azir": [
+      "Fixed E spell checks, and indirectly ALL bugs related to that E bug!!! (dash, flee, etc)",
+      "Improved insec",
+      "Fixed the chat spam when you choose cast W on prediction mode instead of max range",
+      "Improved flee mode, taking into account latency",
+      "Fixed a bug with ult while try to pin enemy into walls"
+    ],
+    "Evelynn": [
+      "Improved performance"
+    ],
+    "Fiora": [
+      "Fixed ignite overkill while ulting",
+      "Added harass mode (to the disappointment of ikita)",
+      "Added more dangerous spells to dodge with ultimate",
+      "Added a new option to follow some enemy dashes!! (a wild Ezreal will jump away? No problem! Now we will jump with him with our R!)"
+    ],
+    "Fizz": [
+      "Fixed jump bug on some spots",
+      "Tweaked R checks",
+      "Added option to disable ult casting on selected enemies"
+    ],
+    "Irelia": [
+      "Added an option to delay Q in lane clear and last hit (if you enable it and set too high, you will miss minions, so be smart)",
+      "Added an option to last hit/lane clear for block our Q if minion is under enemy tower"
+    ],
+    "Katarina": [
+      "Added draw for estimated damage so you can see if you can kill enemy or not",
+      "Fixed some peculiar auto ks bugs",
+      "Fixed random W",
+      "Improved combo checks",
+      "Added harass as toggle"
+    ],
+    "Maokai": [
+      "Fixed some minor bugs"
+    ],
+    "Ryze": [
+      "Some minor combo fixes",
+      "Added a new draw to show your current stacks easily for better management"
+    ],
+    "Trundle": [
+      "Fixed a bug where script was not casting W on lane clear",
+      "Added a hotkey for casting an Instant Pillar E behind enemy",
+      "Improved E logic in combo"
+    ],
+    "Urgot": [
+      "Improved performance"
+    ]
+  }
+}
