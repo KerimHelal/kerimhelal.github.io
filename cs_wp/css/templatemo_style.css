@@ -867,3 +867,13 @@ ul.templatemo-project-gallery  li  a img:hover {
   left: 30px;
   }
 }
+
+@media (min-width: 1415px){
+  .side-nav-bar{
+    width: 140%;
+    max-width: 1400px;
+    position: absolute;
+    left: -350px;
+  }
+
+}
