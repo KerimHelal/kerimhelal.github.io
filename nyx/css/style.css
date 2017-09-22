@@ -1,0 +1,9 @@
+.bg-1{
+    background-image: url("../imgs/Layer 23.png");
+    background-position: center;
+    height:670px;
+}
+
+.home-icon{
+    position: absolute !important;
+padding-right:20px;}
